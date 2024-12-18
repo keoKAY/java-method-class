@@ -79,11 +79,11 @@ public class Main{
         return fibFinder(digit-1) + fibFinder( digit -2 );
     }
     public static void main(String[] args) {
+
         System.out.println("Fib(4): "+fibFinder(4));
         System.out.println("Fib(5): "+fibFinder(5));
         System.out.println("Fib(0): "+fibFinder(0));
-
-        System.out.println("Result of n=3 is "+sumSequence(3));
+                System.out.println("Result of n=3 is "+sumSequence(3));
         System.out.println("Result of n=2 is "+sumSequence(2));
         System.out.println("Result of n=0 is "+sumSequence(0));
 
