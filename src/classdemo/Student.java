@@ -1,5 +1,4 @@
 package classdemo;
-
 public class Student {
     // fields
     String id;
@@ -35,4 +34,13 @@ public class Student {
         System.out.println("Score: "+score);
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id='" + id + '\'' +
+                ", username='" + username + '\'' +
+                ", gender='" + gender + '\'' +
+                ", score=" + score +
+                '}';
+    }
 }

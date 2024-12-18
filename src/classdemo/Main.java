@@ -20,5 +20,8 @@ public class Main {
 
         student1.showInfo(); // show info of obj student 1
         student2.showInfo();
+
+        System.out.println("This is the value of student1 ");
+        System.out.println(student1);
     }
 }
