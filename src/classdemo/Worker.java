@@ -23,6 +23,9 @@ public class Worker {
 
     }
 
+    private float findTotalIncome(){
+        return wages * hours;
+    }
     public void showWorkerInfo(){
         System.out.println("--------------------------------");
         System.out.println("Worker ID : "+id);
@@ -30,6 +33,7 @@ public class Worker {
         System.out.println("Worker Gender : "+gender);
         System.out.println("Worker Wage/1hr : "+wages);
         System.out.println("Worker's working hour: "+hours);
+        System.out.println("Worker Total income: "+findTotalIncome()+"$");
     }
     public void inputWorkerInfo(Scanner input){
         // create scanner
